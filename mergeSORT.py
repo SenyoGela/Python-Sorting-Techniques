@@ -23,6 +23,15 @@ def sort(nums):
                 j += 1
                 k += 1
 
+        while i < len(left_nums):
+            nums[k] = left_nums[i]
+            i += 1
+            k += 1
+
+        while j < len(right_nums):
+            nums[k] = right_nums[j]
+            j += 1
+            k += 1
 
 nums = [75, 30, 49, 81, 54, 57, 79, 50, 85, 71]
 sort(nums)

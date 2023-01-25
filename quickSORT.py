@@ -20,6 +20,9 @@ def partition(nums, left, right):
         if i < j:
             nums[i], nums[j] = nums[j], nums[i]
 
+    if nums[i] > pivot:
+        nums[i], nums[right] = nums[right], nums[i]
+
 nums = [75, 30, 49, 81, 54, 57, 79, 50, 85, 71]
 sort(nums)
 

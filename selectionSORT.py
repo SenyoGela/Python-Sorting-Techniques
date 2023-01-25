@@ -11,5 +11,6 @@ def sort(nums):
         nums[i] = nums[minpos]
         nums[minpos] = temp
 
+        print(nums)
 
 nums = [75, 30, 49, 81, 54, 57, 79, 50, 85, 71]

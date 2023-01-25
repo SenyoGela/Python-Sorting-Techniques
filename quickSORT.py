@@ -1,6 +1,6 @@
 # QUICK SORT
 
-def sort(nums):
+def sort(nums, left, right):
 
 
 nums = [75, 30, 49, 81, 54, 57, 79, 50, 85, 71]

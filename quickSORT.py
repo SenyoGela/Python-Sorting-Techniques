@@ -6,6 +6,10 @@ def sort(nums, left, right):
         sort(nums, left, partition_pos - 1)
         sort(nums, partition_pos + 1, right)
 
+def partition(nums, left, right):
+    i = left
+    j = right - 1
+    pivot = nums[right]
 
 
 nums = [75, 30, 49, 81, 54, 57, 79, 50, 85, 71]

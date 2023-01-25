@@ -14,3 +14,6 @@ def sort(nums):
         print(nums)
 
 nums = [75, 30, 49, 81, 54, 57, 79, 50, 85, 71]
+sort(nums)
+
+print(nums)
